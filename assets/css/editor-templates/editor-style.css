@@ -1,0 +1,78 @@
+/*#region Add Container*/
+.add-container {
+  width: 90%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 25px auto;
+  border: 2px dashed #c7c7c7;
+  border-radius: 10px;
+}
+
+.add-container i {
+  font-size: 3.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.add-container img {
+  width: 50px;
+}
+
+.add-container .grid-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  display: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.add-container .grid-flex > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-container .grid-flex > div:hover img {
+  filter: drop-shadow(0px 0px 1px #48abe0);
+  -webkit-filter: drop-shadow(0px 0px 1px #48abe0);
+}
+
+/*#endregion*/
+
+/*#region drag and drop Placeholder*/
+.drag-drop-placeholder {
+  background-color: #48abe0;
+  border: 1px solid transparent;
+  box-shadow: 0 0 5px 3px #48abe0;
+}
+
+.bg-highlight {
+  border: 1px dashed #d18801;
+  background-color: #d188015d;
+}
+/*#endregion*/
+
+
+body {
+  margin: 0 auto;
+}
+
+.hovering-droppable {
+  background-color: #d188012c;
+}

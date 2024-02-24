@@ -1,0 +1,14 @@
+{
+    "id": "1",
+    "widget_id": "1",
+    "styles": [
+        {
+            "type": "text",
+            "value": "Hello word!"
+        },
+        {
+            "type": "number",
+            "value": "1!"
+        }
+    ]
+}

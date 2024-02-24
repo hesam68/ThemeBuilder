@@ -1,0 +1,22 @@
+{
+  "widgets": [
+    {
+      "id": 1,
+      "name": "Text",
+      "icon": "t.png",
+      "html": "<div></div>"
+    },
+    {
+      "id": 2,
+      "name": "Multitext",
+      "icon": "t.png",
+      "html": "<textarea></textarea>"
+    },
+    {
+      "id": 3,
+      "name": "Image",
+      "icon": "t.png",
+      "html": "<image src=\"...\" >"
+    }
+  ]
+}
